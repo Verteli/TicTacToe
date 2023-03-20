@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body class="body">
+    <h1 class="title">TIC TAC TOE (Go Go Go)</h1>
+    <div class="board"></div>
+    <div class="winner-anounced" id="winningAnounced">
+      <div id="winningMessage"></div>
+      <button id="restartButton">Reset Button</button>
+      <div>
+        <div id="player1Displayed"></div>
+        <div id="player2Displayed"></div>
+      </div>
+    </div>
+    <div class="player-input">
+      <form id="form">
+        <h1>Multiplayer</h1>
+        <input type="text" placeholder="Player 1 Name" />
+        <input type="text" placeholder="Player 2 Name" />
+        <button type="submit">Start Game</button>
+      </form>
+    </div>
+
+    <div id="solo">
+      <form id="single">
+        <h1>Singleplayer</h1>
+        <input type="text" placeholder="Player Name" />
+        <button type="submit" id="singlePlayer">Start Game</button>
+      </form>
+    </div>
+  </body>
+</html>
